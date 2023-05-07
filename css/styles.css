@@ -26,8 +26,23 @@ body {
     font-weight: 600;
     font-style: normal;
     background-size: cover;
-    background: radial-gradient(circle farthest-corner at center center, #FFE3E3 0%, #FF9999 38%, #FFBABA 64%, #FFC4C4 78%, #FFA1A1 92%, #FFE3E3 100%);
+    /* background: radial-gradient(circle farthest-corner at center center, #FFEDFE 3%, #FFA8F3 25%, #FF87D3 42%, #FF5EA9 70%, #FFE8FB 94%); */
 }
+/* #backvideo {
+    width: 100%;
+    height: auto;
+} */
+#video {
+    position: fixed;
+    object-fit: cover;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+
 
 header{
     padding-bottom: 25%;
@@ -297,6 +312,11 @@ header{
     z-index: 999;
     width: 100%;
     padding-bottom: 20%;
+}
+
+#video {
+    width: 100%;
+    height: auto;
 }
     
 
