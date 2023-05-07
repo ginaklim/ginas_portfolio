@@ -25,13 +25,9 @@ body {
     font-family: "articulat-cf", sans-serif;
     font-weight: 600;
     font-style: normal;
-    background-size: cover;
-    /* background: radial-gradient(circle farthest-corner at center center, #FFEDFE 3%, #FFA8F3 25%, #FF87D3 42%, #FF5EA9 70%, #FFE8FB 94%); */
 }
-/* #backvideo {
-    width: 100%;
-    height: auto;
-} */
+
+
 #video {
     position: fixed;
     object-fit: cover;
